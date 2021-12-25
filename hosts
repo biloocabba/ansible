@@ -1,0 +1,7 @@
+[ec2]
+ec2-35-158-92-87.eu-central-1.compute.amazonaws.com
+ec2-3-122-235-79.eu-central-1.compute.amazonaws.com
+
+[ec2:var]
+ansible_ssh_private_key_file=~Downloads/docker-server.pem
+ansible_user=ec2-user
